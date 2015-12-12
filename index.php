@@ -77,6 +77,7 @@
 										}
 
 										if( $status == 'success' ) {
+											echo "<h3><center>Short: $shorturl</h3></center>";
 											// Include the Copy box and the Quick Share box
 											// yourls_share_box( $url, $shorturl, $title, $text );
 
